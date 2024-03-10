@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Allows sharing files from the app's external files directory. -->
+    <!-- This is useful for sharing images or documents saved by your app. -->
+    <external-files-path name="my_images" path="Pictures/"/>
+
+    <!-- Allows sharing files from the app's internal cache directory. -->
+    <!-- This can be useful for temporarily sharing files that your app has cached. -->
+    <cache-path name="my_cache" path="."/>
+
+    <!-- Allows sharing files from the app's external cache directory. -->
+    <!-- Similar to the internal cache, but stored on external storage. -->
+    <external-cache-path name="my_external_cache" path="."/>
+</paths>
